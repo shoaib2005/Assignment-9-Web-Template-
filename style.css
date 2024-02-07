@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right,rgb(52, 28, 52),rgb(245, 136, 228));
+}
+img{
+    width: 60px;
+    height: 60px;
+    top: 0px;
+    left: 0px;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(240, 240, 240);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 575px 0px 400px;
+}
+a{
+    color: black;
+}
+.x{
+    display: flex;
+    justify-content: flex-end;
+    top: 0px;
+    right: 0px;
+    align-items: center;
+}
+.main{
+    text-align: center;
+    margin-top: 0px;
+    height: 700px;
+}
+.boxes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.beginner{
+    background-image: linear-gradient(to bottom,skyblue,pink);
+    padding: 80px 90px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+.standard{
+    background-image: linear-gradient(to bottom,silver,pink);
+    padding: 80px 90px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+.premium{
+    background-image: linear-gradient(to bottom,gold,pink);
+    padding: 80px 90px;
+    font-size: 30px;
+}
+.footer{
+    color: whitesmoke;
+    padding: 30px 500px 30px 490px;
+    background-color: rgb(0, 0, 0);
+}
+button{
+    width: 100px;
+    height: 60px;
+    border-radius: 130px;
+    border: none;
+}
+@media screen and (width:400px) {
+    .boxes{
+        flex-direction: column
+    }
+}
